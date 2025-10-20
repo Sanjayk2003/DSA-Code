@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<head>
+  <title>&#9989; Bookstore</title>
+  <link rel="stylesheet" href="books.css">
+</head>
+<body>
+  <div class="header">
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html"><img src="https://i.ibb.co/zrZz9Ks/book-logo.png" alt="BookStore" width="125px" /></a>
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Books</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="account.html">Account</a></li>
+          </ul>
+        </nav>
+        <a href="cart.html"><img src="https://i.ibb.co/PNjjx3y/cart.png" alt="" width="30px" height="30px" /></a>
+        <img src="https://i.ibb.co/6XbqwjD/menu.png" alt="" class="menu-icon" onclick="menutoggle()" />
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <h1>
+            Dive Into New Worlds <br />
+            with Every Page!
+          </h1>
+          <p>
+            “A room without books is like a body without a soul.” <br />
+            Discover our collection of timeless stories and modern favorites.
+          </p>
+          <a href="#" target="_blank" rel="noopener noreferrer" class="btn">Explore Now &#8594;</a>
+        </div>
+        <div class="col-2">
+          <img src="https://i.ibb.co/0MD9Dkt/book-display.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Featured categories -->
+  <div class="categories">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-3">
+          <img src="https://i.ibb.co/c8D4skS/category-fiction.jpg" alt="Fiction Books" />
+        </div>
+        <div class="col-3">
+          <img src="https://i.ibb.co/h91y0P0/category-nonfiction.jpg" alt="Non-fiction Books" />
+        </div>
+        <div class="col-3">
+          <img src="https://i.ibb.co/Gvs3pNk/category-children.jpg" alt="Children's Books" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Featured books -->
+  <div class="small-container">
+    <h2 class="title">Featured Books</h2>
+    <div class="row">
+      <div class="col-4">
+        <a href="book_details.html"><img src="https://i.ibb.co/dDPbhY6/book-1.jpg" alt="Book 1" /></a>
+        <a href="book_details.html">
+          <h4>The Great Gatsby</h4>
+        </a>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <p>₹399.00</p>
+      </div>
+
+      <div class="col-4">
+        <img src="https://i.ibb.co/vLSdszv/book-2.jpg" alt="Book 2" />
+        <h4>To Kill a Mockingbird</h4>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <p>₹450.00</p>
+      </div>
+
+      <div class="col-4">
+        <img src="https://i.ibb.co/R6PGtsQ/book-3.jpg" alt="Book 3" />
+        <h4>1984</h4>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <p>₹499.00</p>
+      </div>
+
+      <div class="col-4">
+        <img src="https://i.ibb.co/QftbpGc/book-4.jpg" alt="Book 4" />
+        <h4>Becoming</h4>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <p>₹650.00</p>
+      </div>
+    </div>
+
+    <h2 class="title">Latest Arrivals</h2>
+    <div class="row">
+      <div class="col-4">
+        <img src="https://i.ibb.co/F5VrkfT/book-5.jpg" alt="Book 5" />
+        <h4>The Midnight Library</h4>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <p>₹550.00</p>
+      </div>
+
+      <div class="col-4">
+        <img src="https://i.ibb.co/NNW0Jyc/book-6.jpg" alt="Book 6" />
+        <h4>Atomic Habits</h4>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <p>₹520.00</p>
+      </div>
+
+      <div class="col-4">
+        <img src="https://i.ibb.co/MZnHrt7/book-7.jpg" alt="Book 7" />
+        <h4>Where the Crawdads Sing</h4>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <p>₹499.00</p>
+      </div>
+
+      <div class="col-4">
+        <img src="https://i.ibb.co/QmxsZGQ/book-8.jpg" alt="Book 8" />
+        <h4>Educated</h4>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <p>₹450.00</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- offer -->
+  <div class="offer">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-2">
+          <img src="https://i.ibb.co/4RytDGp/book-offer.png" alt="" class="offer-img" />
+        </div>
+        <div class="col-2">
+          <p>Exclusively Available on BookStore</p>
+          <h1>Special Edition Books</h1>
+          <small>
+            Discover limited edition books from your favorite authors, including signed copies and rare releases.
+          </small>
+          <br />
+          <a href="#" class="btn">Shop Now &#8594;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Testimonial -->
+  <div class="testimonial">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-3">
+          <i class="fas fa-quote-left"></i>
+          <p>
+            “A great collection of books that keeps growing. I found exactly what I was looking for!”
+          </p>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
